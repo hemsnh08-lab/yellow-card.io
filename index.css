@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: 'Figtree', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  max-width: 327px; /* Exact mobile card width */
+  padding: 24px;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
+.yellow img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+section h1 {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  font-size: 12px;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.puddle p {
+  font-size: 12px;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 12px;
+}
+
+section h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 12px;
+}
+
+.black p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: hsl(0, 0%, 42%);
+  margin-bottom: 24px;
+}
+
+.pictures ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pictures img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.pictures h3 {
+  font-size: 14px;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+
+
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution{ padding-top: 10px;
+    margin-top: 10px;}
